@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "whoamimod",
+  "version": "${version}",
+  "name": "Whoami Mod",
+  "description": " /whoami linuxuser，",
+  "authors": ["gdooe"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/whoamimod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourname.whoamimod.WhoamiMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.6-1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
